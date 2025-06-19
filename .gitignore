@@ -1,0 +1,31 @@
+# Build files
+**/bin/
+**/obj/
+
+# User-specific files
+*.user
+*.suo
+*.vs/
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Rider/VS Code config
+.idea/
+.vscode/
+
+# Environment and secrets
+.env
+secrets.json
+
+# Output PDFs (optional - if you don’t want to commit them)
+wwwroot/merged/*.pdf
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
